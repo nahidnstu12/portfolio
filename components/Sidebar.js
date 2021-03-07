@@ -11,10 +11,10 @@ export const Sidebar = () => {
                 <span className={styles.fname} >Nahid </span>
                 Islam
             </h3>
-            <p className={`px-2 py-1 my-3 rounded ${styles.title}`} >Web Developer</p>
+            <p className={` my-3 ${styles.title}`} >Web Developer</p>
             
             {/* Resume */}
-                <a href="/Nahid.pdf" download="/Nahid.pdf" className={`d-flex rounded align-items-center justify-content-center px-2 py-1 my-2 ${styles.resume} `} >
+                <a href="/Nahid.pdf" download="/Nahid.pdf" className={`d-flex align-items-center justify-content-center px-2 py-1 my-2 ${styles.resume} `} >
                     <GiTie className={`${styles.tie}`}/>
                     <span>Download Resume</span>
                 </a>
@@ -37,7 +37,7 @@ export const Sidebar = () => {
             {/* contacts */}
                 <div className={`py-4 my-sm-4 my-3 ${styles.contacts}`}>
                     <div className={`d-flex align-items-center justify-content-center`}>
-                        <GoLocation className={`mr-2`}/>
+                        <GoLocation className={`mr-2 ${styles.tie}`}/>
                         <span>Noakhali, Bangladesh</span>
                     </div>
                     <p  className={`my-2`}>nahidaslamxxx3@gmail.com</p>
