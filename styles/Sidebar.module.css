@@ -1,0 +1,54 @@
+.img{
+    width: 180px;
+    height: 195px;
+    /* object-fit: contain; */
+    border-radius: 1.25rem;
+}
+.name{
+   
+    font-family: 'Kaushan Script';
+}
+.name .fname{
+     color: #00f260;
+}
+.title{
+    background-color: #f1f1f2;
+}
+.resume{
+    background-color: #f1f1f2;
+    cursor: pointer;
+    color: black;
+    text-decoration: none !important;
+}
+.resume .tie{
+    color: #00f260;
+    margin-right: 6px;
+    width: 1.9rem;
+    height: 2rem;
+}
+.socials_icon{
+    color: #00f260;
+    width: 2.9rem;
+    cursor: pointer;
+    height: 2rem;
+}
+.contacts{
+    background-color: #f1f1f2;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.email_button{
+    background: linear-gradient(to right,#00f260,#0575e6 );
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 195px;
+}
+.theme_button{
+    background: linear-gradient(to right,#00f260,#0575e6 );
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
