@@ -1,4 +1,3 @@
-import { Alert } from 'reactstrap';
 function index() {
   return (
     <div className="text-primary">

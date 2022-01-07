@@ -6,12 +6,12 @@ import styles from '../styles/Sidebar.module.css'
 export const Sidebar = () => {
     return (
         <div>
-            <img src="/user2.jpg" alt="user avatar" className={`${styles.img}  mx-auto`} />
-            <h3 className={`${styles.name} display-4 my-3`} >
+            <img src="/user2.jpg" alt="user avatar" className={`${styles.img}`} />
+            <h3 className={`${styles.name}`} >
                 <span className={styles.fname} >Nahid </span>
                 Islam
             </h3>
-            <p className={` my-3 ${styles.title}`} >Web Developer</p>
+            <p className={` ${styles.title}`} >Web Developer</p>
             
             {/* Resume */}
                 <a href="/Nahid.pdf" download="/Nahid.pdf" className={`d-flex align-items-center justify-content-center px-2 py-1 my-2 ${styles.resume} `} >
