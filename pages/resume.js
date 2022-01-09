@@ -1,7 +1,6 @@
-export default function Resume() {
+import Resume from "../components/resume/Resume"
+export default function resume() {
     return (
-        <div>
-            resume page
-        </div>
+        <Resume />
     )
 }
